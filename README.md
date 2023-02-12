@@ -1,5 +1,7 @@
 # cpu-bench
 
+CPU benchmark for measuring your machine performance easier without additional installation of benchmarking tool
+
 ## Sources
 - https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html
 - https://www.youtube.com/watch?v=5ksXJGKF3Ug

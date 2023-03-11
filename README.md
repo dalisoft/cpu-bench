@@ -14,10 +14,13 @@ CPU benchmark for measuring your machine performance easier without additional i
 | Python 3 | `./nbody-python3-1.py`      | Single-core | 50_000_000 |
 | Python 3 | `./mandelbrot-python3-7.py` | Multi-core  | 50_000     |
 
+## Results
+
 | Machine      | Single-core time | Multi-core time |
 | ------------ | ---------------- | --------------- |
 | MBP 16" 2021 | ~161 sec         | ~446 sec        |
 | MBP M1 2020  | ~267 sec         | ~624 sec        |
+| RPi 4B 4GB   | ~1049 sec        | -               |
 
 ## Preparation
 

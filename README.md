@@ -17,6 +17,7 @@ CPU benchmark for measuring your machine performance easier without additional i
 | Machine      | Single-core time | Multi-core time |
 | ------------ | ---------------- | --------------- |
 | MBP 16" 2021 | ~161 sec         | ~446 sec        |
+| MBP M1 2020  | ~267 sec         | ~624 sec        |
 
 ## Preparation
 

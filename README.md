@@ -3,15 +3,20 @@
 CPU benchmark for measuring your machine performance easier without additional installation of benchmarking tool
 
 ## Sources
-- https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html
-- https://www.youtube.com/watch?v=5ksXJGKF3Ug
+
+- <https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html>
+- <https://www.youtube.com/watch?v=5ksXJGKF3Ug>
 
 ## Types
 
-| Language | Filename                    | Type        |
-| -------- | --------------------------- | ----------- |
-| Python 3 | `./nbody-python3-1.py`      | Single-core |
-| Python 3 | `./mandelbrot-python3-7.py` | Multi-core  |
+| Language | Filename                    | Type        | Argument   |
+| -------- | --------------------------- | ----------- | ---------- |
+| Python 3 | `./nbody-python3-1.py`      | Single-core | 50_000_000 |
+| Python 3 | `./mandelbrot-python3-7.py` | Multi-core  | 50_000     |
+
+| Machine      | Single-core time | Multi-core time |
+| ------------ | ---------------- | --------------- |
+| MBP 16" 2021 | ~161 sec         | ~446 sec        |
 
 ## Preparation
 

@@ -21,7 +21,16 @@ CPU benchmark for measuring your machine performance easier without additional i
 | MBP 16" 2021       | macOS 13  | ~161 sec         | ~446 sec        |
 | MBP M1 2020        | macOS 13  | ~267 sec         | ~624 sec        |
 | i9-9900K (4.8/4.6) | Win 11    | ~356 sec         | ~584 sec        |
-| RPi 4B 4GB         | Debian 11 | ~1049 sec        | >4500+ sec      |
+| RPi 4B 4GB         | Debian 11 | ~1049 sec        | ~4336 sec       |
+
+## Relative performance
+
+| Machine            | Env       | Single-core | Multi-core |
+| ------------------ | --------- | ----------- | ---------- |
+| MBP 16" 2021       | macOS 13  | 100%        | 100%       |
+| MBP M1 2020        | macOS 13  | 60%         | 71%        |
+| i9-9900K (4.8/4.6) | Win 11    | 45%         | 76%        |
+| RPi 4B 4GB         | Debian 11 | 15%         | 10%        |
 
 ## Preparation
 
